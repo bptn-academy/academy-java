@@ -1,5 +1,5 @@
 package com.bptn.challenges;
-import java.util.Scanner;
+
 
 public class StepsToZero {
 	public static int numberOfSteps(int num) {
