@@ -7,7 +7,7 @@ public class InsertPosition {
  */
 	public static int searchInsert(int[] nums, int target) {
         // Write your code here
-		//go through an array to find target - for loop for this
+		//to start, I'll go through an array to find target - will use for loop for this
 		//if target is found, print the index - if/else statements contained within for loop
 		// else arrange number in array - if/else statements contained within for loop
 		// if target is less than number at index.return that first index of the number it is less than.
@@ -27,7 +27,7 @@ public class InsertPosition {
     public static void main(String args[]){
         int nums[] = {1, 3, 5, 7, 9} , target = 9;
         int nums1[] = {1, 3, 5, 6} , target1 = 3;
-        int nums2[] = {1, 3, 5, 6, 7} , target2 = 10;
+        int nums2[] = {1, 3, 5, 6, 7} , target2 = 7;
 
         System.out.println(searchInsert(nums, target));
         System.out.println(searchInsert(nums1, target1));
