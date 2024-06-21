@@ -1,6 +1,6 @@
-package coding_practice_2_7;
+package com.bptn.course._11_runtime_polymorphism;
 
-public class Student {
+public class RuntimePolymorphism {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
