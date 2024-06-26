@@ -1,6 +1,6 @@
 package com.bptn.course._10_overriding;
 
-import com.bptn.course._09_inheritance.priate;
+//import com.bptn.course._09_inheritance.priate;
 /*
  * Overrising only exsts with methods 
  * the tostring method returnss a hexidecimal at the end.rturns an idea of the obj in memory. 
@@ -10,7 +10,7 @@ import com.bptn.course._09_inheritance.priate;
 public class OverridingExample {
 	
 	class Person{
-		priate String name;
+		private String name;
 		private int age;
 		
 		String getName() {
