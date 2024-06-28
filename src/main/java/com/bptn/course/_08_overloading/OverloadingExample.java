@@ -45,16 +45,16 @@ class MyClass{
 	
 	String concatenate(String str) {
 		return "Hello, " + str;
-	//}
+	}
 	
 
 
-	//String concatenate(String str, int num) {
+	String concatenate(String str, int num) {
 		return "Hello, " + str + " " + num;
-	//}
+	}
 	
-	//String concatenate(String hello, int jello) {
-		//return "Hello, " + hello + " " + jello;
+	//String concatenate(String hello, int hello) {
+		//return "Hello, " + hello + " " + hello;
 //	}
 	
 	//the below is not the same. Javea doesn't count the name of the method to determine overloading
