@@ -1,0 +1,85 @@
+
+COLECTIONS
+******************
+
+Definition:
+A java Collection is a data structure
+
+A data structure is data organized in a particular way plus a set of operations to perform on these data.perations 
+such as read, insert, update, delere, sort etc
+
+Generally speaking, there is no such thing as the best data structure, 
+because sepecific data structures perform better than others depending on the situation.
+
+A Java collection is comprised of objects of the same type (Same as in Arrays)
+
+
+LISTS
+***********
+Characteristics of a LIst
+--Keep the Insertion order
+--Can have duplicates
+
+1. ArrayList
+		--Backed by Arrays
+		-- Java creates a new internal array to hold more elements if more space is needed.
+		--
+
+
+2. Linkedlist
+		--Doubly linked chain of nodes.
+		--Each node has a reference to the previous and to the next node
+		--Are slow for iterations (nodes are not in sequence)
+		--Perfform better than an ArrayList if we need to insert or remove elements from a huge list frequently
+
+
+SETS
+************
+		---Dont keep the insertion order
+		--Dont accept duplicates
+
+Tyoes
+1. Hashset - doesnt keep the insertion order
+		   - Implements the hash algorithm
+
+2. LinkedHashSet - Keeps the insertion order
+				 - Implements the hash algorithm
+				 - Less performance as it uses internally:
+				 	-HashSet
+				 	-LinkedList
+
+3. TreeSet - Sort the elements
+			- Implements red-black tree algorithm
+			-Less Performance as it sorts the set
+
+MAPS
+************
+
+-A map is a set of ordered pairs, each pair contains a key and a value. In a map, all keys are required to be unique, the values can be repeated.
+
+-Maps have three primary methods: one methode to add a specified key-value pairs, one to retrieve the value for a given key, one to remove a key -value pair from the map
+
+- Maps are very useful when we need to search by a key.
+An Entry is a (key, value) pairring.
+
+
+
+Types
+1. HashMao- Doesnt keep the insertion order
+			Implements the Hash Algorithm
+			
+2.LinkedHashMap
+
+3TreeMap			
+			
+			
+
+Collection vs Collections
+Collection is the Collection Interface, is the roor interface in Java Collections Framework. It is at the top of the hierachy
+
+Collections Class is a utility library that can be used with Collections
+
+
+
+
+
