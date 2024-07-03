@@ -1,6 +1,6 @@
 package com.bptn.challenges;
 
-public class Student {
+/**public class Student {
 	int studentId;
 	String name;
 	
@@ -14,4 +14,4 @@ public class Student {
 		return studentId + " " + name;
 	}
 
-}
+}*/
