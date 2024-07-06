@@ -1,0 +1,30 @@
+Time and Space Complexity
+
+
+Time Complexity: Tells us about the efficiency of an algorithm when the size of the input becomes enormous
+
+Space Complexity: telss us about the memory used by an algorithm when the size of the input becomes enormous
+
+We use big O notation to express the time and space complexity
+
+
+Common Big O Complexities
+
+
+O(1) - Constant - no matter the size of the input the algorithm always takes the same amount of time and memory to process
+					e.g the get() method of the HashMap Class
+
+O(log n) - Logarithmic - Binary Search
+
+O(n) - Linear -Search for an element in an array
+
+O(n log n) --- Quick Sorts, Merge Sorts
+
+O(n^2) - quadratic --- two nested for loops --- insertion sorts, bubble sorts
+					for(){
+						for(){
+						}
+					}
+
+O(2^n) - exponential
+
