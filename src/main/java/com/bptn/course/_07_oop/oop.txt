@@ -1,0 +1,29 @@
+FOUR OOP CONCEPTS
+*****************
+
+
+1. ENCAPSULATION
+An object must never access aother's object's attributes directly.
+
+2. INHERITANCE
+It happened when a class acquired the attributes and methods from another class. 
+Constructors are not inherited.
+yOUO CAN EXTEND THE CLASS AS MANY TIMES AS YOU WANT. 
+A class can only inherit from another class. 
+A parent class can have as many children as they want. Each child can only have one class.
+A parent class can also have another parent class- this is called multilevel inheritance. 
+
+3.POLYMORPHISM
+Poly - many
+Morphism -> forms
+this means multiple forms. this is what happens when a method or constructor takes different forms.
+Two types: the both are compile time polymorphism
+- Overloading - Happens in one class and does not need inheritance.
+
+- Overriding - You need inheritance
+
+4. ABSTRACTION
+It is achieved by hiding the implementation details of a class. 
+-Interfaces
+-Abstract Classes
+
