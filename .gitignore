@@ -1,5 +1,12 @@
-HELP.md
 .DS_Store
+.metadata/
+academy-java/
+*.log
+.Trash/
+Documents/
+Downloads/
+
+HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
