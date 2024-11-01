@@ -1,5 +1,5 @@
-//package src.test.java.com.bptn.course;
-//
+package src.test.java.com.bptn.course;
+
 //public class AppTest {
 //
 //<<<<<<< HEAD
